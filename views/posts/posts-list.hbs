@@ -1,0 +1,9 @@
+<h1>Posts</h1>
+
+{{#each posts}}
+  <img src="{{picPath}}" alt="{{picName}}">
+  <h3>{{picName}}</h3>
+  <p>{{content}}</p>
+{{else}}
+    <p>There are no movies yet!</p>
+{{/each}}
